@@ -1,6 +1,6 @@
 # Java Practical Assignments – Dev Training
 
-This repository contains solutions for 7 practical assignments related to Java, CI/CD, AWS, data processing, and design patterns. Each task was completed following best development practices and includes deployment and automation aspects.
+This repository contains solutions for 7 practical assignments related to Java, CI/CD, AWS, data processing, and design patterns. 
 
 ## 📘 English Version
 
