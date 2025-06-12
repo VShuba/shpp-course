@@ -1,0 +1,41 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Logs
+*.log
+*.log.*
+
+# Build output
+out/
+target/
+build/
+bin/
+classes/
+
+# Compiled class files
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Misc
+*.swp
+*.bak
+*.tmp
+*.old
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# VS Code (на всякий случай)
+.vscode/
+
+# Specific: AmazonMQ_Task giant log
+AmazonMQ_Task/config/application.log

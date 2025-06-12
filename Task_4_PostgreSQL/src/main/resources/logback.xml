@@ -1,0 +1,30 @@
+<configuration status="WARN">
+    <!-- Конфигурация для вывода логов в file -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>./config/application.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Конфигурация для вывода логов в консоль -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+<!--    for me-->
+<!--    TRACE (самый высокий)-->
+<!--    DEBUG-->
+<!--    INFO-->
+<!--    WARN-->
+<!--    ERROR-->
+<!--    FATAL (самый низкий)-->
+
+</configuration>
